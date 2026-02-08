@@ -1,73 +1,46 @@
-# React + TypeScript + Vite
+# Jonathan Hazan - Product Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the personal portfolio website for Jonathan Hazan, a Head of Product specializing in Product Strategy, Growth Loops, and Analytics.
 
-Currently, two official plugins are available:
+## 🚀 Deployment
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is set up to deploy automatically to **GitHub Pages** using GitHub Actions.
 
-## React Compiler
+1. Push this code to the `main` or `master` branch.
+2. Go to your GitHub repository **Settings** -> **Pages**.
+3. Under **Build and deployment**, select **Source** as **GitHub Actions**.
+4. The workflow will run automatically and deploy your site to `https://the-job-hunter.github.io/jonathanProtfolio/`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+- **React 18**
+- **Vite** (Build Tool)
+- **Tailwind CSS** (Styling)
+- **TypeScript**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 💻 Local Development
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Run development server:
+   ```bash
+   npm run dev
+   ```
+3. Build for production:
+   ```bash
+   npm run build
+   ```
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🌍 SEO & AIO
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+The site includes:
+- Semantic HTML structure.
+- Open Graph tags for social sharing.
+- JSON-LD Structured Data (`Person` schema).
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 👤 Author
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+**Jonathan Hazan**
+- [LinkedIn](https://www.linkedin.com/in/yonih/)
