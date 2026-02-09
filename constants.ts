@@ -102,7 +102,7 @@ export const TIMELINE: TimelineItem[] = [
         id: 1,
         company: "Kerberus Cyber Security",
         role: "Head of Product Analytics",
-        period: "2022 - PRESENT",
+        period: "2025 - PRESENT",
         description: [
             "Kerberus is the leader in crypto web3 scam protection for B2C",
             "Designed data architecture for product and business analytics",
@@ -114,7 +114,7 @@ export const TIMELINE: TimelineItem[] = [
         id: 2,
         company: "WaveBL",
         role: "Head of Product Growth",
-        period: "2021 - 2022",
+        period: "2023 - 2025",
         description: [
             "WaveBL is the global leader in electronic Bills of Lading (eBL) and blockchain trade documentation.",
             "Drove GTM & product marketing: positioning, pricing, messaging, campaigns.",
@@ -128,7 +128,7 @@ export const TIMELINE: TimelineItem[] = [
         id: 3,
         company: "Tarya Fintech",
         role: "Product Team Lead",
-        period: "2019 - 2021",
+        period: "2021 - 2023",
         description: [
             "Tarya Fintech develops loan management and embedded finance solutions for banks and financial institutions.",
             "Led a multi-tenant SaaS lending platform (Loans, Mortgages, BNPL, EWA).",
@@ -141,7 +141,7 @@ export const TIMELINE: TimelineItem[] = [
         id: 4,
         company: "AWS (Amazon Web Services)",
         role: "Biz Dev & Enterprise Account Manager",
-        period: "2018 - 2019",
+        period: "2019 - 2021",
         description: [
             "Managed strategic accounts in banking , credit card & fintech."
         ],
@@ -151,7 +151,7 @@ export const TIMELINE: TimelineItem[] = [
         id: 5,
         company: "Yael Group",
         role: "Head of Product",
-        period: "2016 - 2018",
+        period: "2017 - 2019",
         description: [
             "Directed award-winning digital mortgage & credit products for Israeli banks."
         ],
@@ -161,7 +161,7 @@ export const TIMELINE: TimelineItem[] = [
         id: 6,
         company: "Bank of Jerusalem",
         role: "Head of Product and digital marketing",
-        period: "2014 - 2016",
+        period: "2014 - 2017",
         description: [
             "Led product & digital marketing for Israel’s innovative challenger bank."
         ],
@@ -171,7 +171,7 @@ export const TIMELINE: TimelineItem[] = [
         id: 7,
         company: "Epsilon Investment House",
         role: "Head of Data Management",
-        period: "2012 - 2014",
+        period: "2009 - 2014",
         description: [
             "Managed Data, BI, CRM, and digital channels for a leading investment firm."
         ],
